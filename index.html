@@ -1,0 +1,79 @@
+<html><head>
+    <title>5th SEM SGPA Calculator </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1><b><i>SGPA Calculator</i></b> </h1>
+    <table>
+        <tbody><tr>
+            <th><h2>CODE</h2></th>
+            <th><h2>SUBJECT</h2></th>
+            <th><h2>CREDITS</h2></th>
+            <th><h2>MARKS</h2></th>
+        </tr>
+        <tr>
+            <td>BCS501</td>
+            <td>Software Engineering and Project Management</td>
+            <td>4</td>
+            <td><input type="number" min="0" max="100"></td>
+        </tr>
+        <tr>
+            <td>BCS502</td>
+            <td>Computer Networks</td>
+            <td>4</td>
+            <td><input type="number" min="0" max="100"></td>
+        </tr>
+        <tr>
+            <td> BCS503</td>
+            <td>Theory of Computation</td>
+            <td>4</td>
+            <td><input type="number" min="0" max="100"></td>
+        </tr>
+        <tr>
+            <td> B**L504</td>
+            <td>Data Visualization Lab</td>
+            <td>1</td>
+            <td><input type="number" min="0" max="100"></td>
+        </tr>
+        <tr>
+            <td> B**515* </td>
+            <td>Professional Elective Course</td>
+            <td>3</td>
+            <td><input type="number" min="0" max="100"></td>
+        </tr>
+        <tr>
+            <td> BRMK557</td>
+            <td>Research Methodology and IPR </td>
+            <td>3</td>
+            <td><input type="number" min="0" max="100"></td>
+        </tr>
+        <tr>
+            <td>B**586</td>
+            <td>Mini Project </td>
+            <td>2</td>
+            <td><input type="number" min="0" max="100"></td>
+        </tr>
+        <tr>
+            <td>BESK508/BCS508</td>
+            <td> Environmental Studies and E-waste Management</td>
+            <td>1</td>
+            <td><input type="number" min="0" max="100"></td>
+        </tr>
+    </tbody></table>
+    <div class="total-marks" id="sgpaDisplay"></div>
+    <div class="buttons">
+        <button onclick="calculateSGPA()">Calculate SGPA</button>
+        <button class="reset" onclick="resetMarks()">Reset</button>
+    </div>
+
+
+    <footer>
+        © Syed Javed M                
+    </footer>
+
+    <script src="main.js"></script>
+
+
+
+
+  </body></html>
