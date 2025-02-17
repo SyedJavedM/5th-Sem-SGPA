@@ -1,7 +1,7 @@
 function calculateSGPA() {
     const gradePoints = [10, 9, 8, 7, 6, 5, 4, 0];
-    const marksRanges = [90, 80, 70, 60, 50, 45, 40, 0];
-    const creditPoints = [4, 4, 4, 1, 3, 3, 2, 1]; 
+    const marksRanges = [90, 80, 70, 60, 50, 40, 30, 0];
+    const creditPoints = [4, 4, 4, 1, 2, 3, 1, 0, 3]; 
 
     const inputFields = document.querySelectorAll('input[type="number"]');
     let totalCredits = 0;
